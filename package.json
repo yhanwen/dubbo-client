@@ -1,0 +1,20 @@
+{
+  "name": "dobbo-client",
+  "version": "0.0.1",
+  "description": "Simple client for dubbo. Use dubbo protocol and TCP connection pool to communicate with dubbo server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "dubbo",
+    "connection",
+    "pool"
+  ],
+  "author": "Hanwen",
+  "license": "MIT",
+  "dependencies": {
+    "generic-pool": "~2.1.1",
+    "async": "~0.9.0"
+  }
+}
